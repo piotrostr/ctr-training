@@ -1,0 +1,7 @@
+version: "3"
+services:
+  api:
+    image: piotrostr/trivial-api
+    build: .
+    ports:
+      - 8080:8080

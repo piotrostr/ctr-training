@@ -7,6 +7,7 @@ import (
 )
 
 func Handler(w http.ResponseWriter, r *http.Request) {
+	log.Printf("%s %s %s\n", r.UserAgent(), r.Method, r.URL)
 	name := "World"
 	if r.URL.Path != "/" {
 		name = r.URL.Path[1:]
