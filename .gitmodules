@@ -1,0 +1,3 @@
+[submodule "cloud-function"]
+	path = cloud-function
+	url = https://github.com/piotrostr/gcloud-function-test
